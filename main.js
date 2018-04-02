@@ -11,6 +11,10 @@ async function Main() {
 	await Main.client.login(process.argv[2]);
 	// await Main.client.user.setUsername("CirclePolling");
 	// await Main.client.user.setAvatar("./avatar.png");
+	await Main.client.user.setActivity("/u/joooas", {
+		type: "LISTENING",
+		url: "https://open.spotify.com"
+	});
 
 	setInterval(async function() {
 		const request = await fetch("https://www.reddit.com/r/CircleOfTrust.json");
