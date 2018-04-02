@@ -1,0 +1,8 @@
+{
+	"name": "circle-polling",
+	"version": "1.0.0",
+	"dependencies": {
+		"discord.js": "11.3.0",
+		"node-fetch": "2.0.0"
+	}
+}
